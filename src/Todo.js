@@ -6,7 +6,7 @@ function Todo(props) {
         <div>
             <List>
                 <ListItem>
-                    <ListItemText primary={props.text} ></ListItemText>
+                    <ListItemText primary={props.text} id={props.key} ></ListItemText>
                 </ListItem>
             </List>
         </div>
