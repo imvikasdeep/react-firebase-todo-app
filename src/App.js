@@ -45,7 +45,7 @@ function App() {
 
 			<ul>
 				{todos.map(todo => (
-					<Todo text={todo.todo} key={todo.id}></Todo>
+					<Todo text={todo.todo} id={todo.id}></Todo>
 				))}
 			</ul>
 
